@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bellydance 🔥</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <h1>The Ancient Art of Bellydancing<br />💃</h1>
+    <h2>Dance is the hidden language of the soul</h2>
+    <img src="/images/bellydancer.jpg" alt="bellydancer" />
+    <p>
+      Bellydance, more correctly referred to as oriental dance, is an Arabic
+      expressive dance that has its origins in Egypt since ancient times. It
+      features movements of the hips and torso predominantly. It has evolved to
+      take many different forms depending on the country and region, both in
+      costume and dance style; with the Egyptian styles and costumes being the
+      most recognized worldwide due to Egyptian cinema. The Egyptian style with
+      its traditional Egyptian rythms is popular worldwide with many schools
+      around the globe now practicing it.
+      <br />
+      <br />
+      There are many physical and mental health benefits associated with
+      bellydancing and some of them include:
+    </p>
+    <ul>
+      <li>Better posture and balance</li>
+      <li>Strong and toned muscles</li>
+      <li>Increased confidence</li>
+      <li>Unleashed creativity</li>
+      <li>Stress-relieving effect</li>
+      <li>Enhanced brain power</li>
+    </ul>
+    <p class="wikipedia-link">
+      <a
+        href="https://en.wikipedia.org/wiki/Belly_dance"
+        class="wikipedia"
+        target="_blank"
+      >
+        Learn more on Wikipedia
+      </a>
+    </p>
+    <br />
+    <button><strong>Book a free class now!</strong></button>
+    <div class="coder">
+      <em>Coded by</em>
+      <a href=""></a>
+      <a
+        href="https://www.yogaalliance.org/TeacherPublicProfile?tid=291212"
+        class="profile-link"
+        target="_blank"
+        ><em>Katia Razafindralambo</em>
+      </a>
+      🤓
+    </div>
+    <script>
+      function questionnaire() {
+        let name = prompt("👋 What is your name?");
+        let email = prompt("What is your email address?");
+        let healthConcerns = prompt("Do you have any health concerns?");
+        healthConcerns = healthConcerns.toLowerCase();
+        healthConcerns = healthConcerns.trim();
+        if (healthConcerns === "yes") {
+          alert(
+            "Thank you " +
+              name +
+              ", we will be in touch shortly for a personal consultation 😊"
+          );
+        } else {
+          alert(
+            "Thank you " +
+              name +
+              ", we will be in touch shortly to arrange the free class! Happy dancing! 😊"
+          );
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", questionnaire);
+    </script>
+  </body>
+</html>

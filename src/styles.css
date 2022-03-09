@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+  border: 10px 40px;
+}
+h1,
+h2,
+p {
+  text-align: center;
+  font-family: cursive;
+  color: #0c005a;
+}
+h2 {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+p {
+  text-align: justify;
+  margin: 0 25%;
+  padding-top: 40px;
+}
+ul {
+  display: block;
+  margin: 25px auto;
+  list-style: inside;
+  list-style-type: circle;
+  color: #0c005a;
+  font-family: cursive;
+  text-indent: 23%;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 80%;
+  border-radius: 20px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background: #6c5b7c;
+  color: white;
+  border-color: #6c5b7c;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(108, 91, 124, 0.2);
+  padding: 10px 20px;
+}
+button:hover {
+  background: #f67280;
+  color: white;
+  border-color: #6c5b7c;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.wikipedia {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-family: cursive;
+  padding-bottom: 5px;
+}
+.wikipedia-link {
+  padding-top: 0;
+}
+.profile-link {
+  text-decoration: none;
+}
+.coder {
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+  padding: 25px 15px;
+}
